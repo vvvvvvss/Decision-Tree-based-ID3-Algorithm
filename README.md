@@ -13,11 +13,11 @@ Decision trees are sensitive to outliers. Extreme values may influence their con
 The Information Gain measures the expected reduction in entropy. It is used to determine the root node.
 `Information Gain = Entropy(Parent) − Weighted Average Entropy(Children)`
 The feature which has minimum impurity will be considered as the root node.
-
+Information Gain calculates the reduction in the entropy and measures how well a given feature separates or classifies the target classes. The feature with the highest Information Gain is selected as the best one.
 
 ## Gini impurity
 ## Entropy
-Entropy is a measure of randomness or disorder. It shows the uncertainity in the dataset.  
+Entropy is a measure of randomness or disorder. It shows the uncertainity in the dataset. Shannon's entropy model uses logarithm of function P(x) to the base 2 to measure the entropy
 ![image](https://github.com/vvvvvvss/Decision-Tree-based-ID3-Algorithm/assets/148562671/f46e0e2e-0b63-43b8-8e57-d6a88ce8d5a2)
 where,  
 p+ is the probability of positive class  
