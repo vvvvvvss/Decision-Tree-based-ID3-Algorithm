@@ -17,7 +17,7 @@ Information Gain calculates the reduction in the entropy and measures how well a
 
 ## Gini impurity
 ## Entropy
-Entropy is a measure of randomness or disorder. It shows the uncertainity in the dataset. Shannon's entropy model uses logarithm of function P(x) to the base 2 to measure the entropy. Once a dataset contains more than one "type" of elements specifically more than one target feature value, the impurity will be greater than zero, which means entropy is alos greater than zero. 
+Entropy is a measure of randomness or disorder. It shows the uncertainity in the dataset. Shannon's entropy model uses logarithm of function P(x) to the base 2 to measure the entropy. Once a dataset contains more than one "type" of elements specifically more than one target feature value, the impurity will be greater than zero, which means entropy is alos greater than zero.  
 ![image](https://github.com/vvvvvvss/Decision-Tree-based-ID3-Algorithm/assets/148562671/f46e0e2e-0b63-43b8-8e57-d6a88ce8d5a2)
 where,  
 p+ is the probability of positive class  
