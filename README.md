@@ -28,3 +28,6 @@ Higher the entropy, lower the purity of the dataset.
 # ID3
 ID3 stands for Iterative Dichotomiser 3 and is named such because the algorithm iteratively (repeatedly) dichotomizes(divides) features into two or more groups at each step.
 ID3 uses a **top-down greedy approach**. Top-down approach simply means aproaching the top most node first and gradually moving downwards. While greedy approach means at each iteration the model picks the best feature. ID3 is usually used with nominal features only. We know that ID3 selects the best features only. For this ID3 uses Information gain.
+
+# Calculation
+`
